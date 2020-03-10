@@ -1,7 +1,16 @@
 <html>
 <body>
-	<a href=”//itms-services://?action=download-manifest&url=https://alexdtorres.github.io/apps/factoring/manifest.plist">
+	<script>
+		function triggerDownload(event) {
+			window.location = event.target.href;
+			return false;
+		}
+	</script>
+	<button
+		onclick="triggerDownload"
+		href=”itms-services://?action=download-manifest&url=https://alexdtorres.github.io/apps/factoring/manifest.plist"
+	>
 		Install Factoring (Enterprise) for iOS
-	</a>
+	</button>
 </body>
 </html>
