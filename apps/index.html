@@ -2,8 +2,10 @@
 <body>
 	<script>
 		function triggerDownload(event) {
-			window.location = event.target.href;
-			return false;
+			var itmsURL = event.target.href;
+			console.log(itmsURL);
+			window.location = itmsURL;
+			return true;
 		}
 	</script>
 	<button
