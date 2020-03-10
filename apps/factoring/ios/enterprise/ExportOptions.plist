@@ -11,7 +11,7 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://alexdtorres.github.io/apps/factoring/ios/enterprise/factoring.ipa</string>
+		<string>https://alexdtorres.github.io/apps/factoring/ios/enterprise/Factoring.ipa</string>
 		<key>displayImageURL</key>
 		<string>https://alexdtorres.github.io/apps/factoring/ios/enterprise/image.57x57.png</string>
 		<key>fullSizeImageURL</key>
