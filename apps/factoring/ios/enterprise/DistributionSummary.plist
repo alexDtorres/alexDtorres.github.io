@@ -25,7 +25,7 @@
 				<key>aps-environment</key>
 				<string>production</string>
 				<key>com.apple.developer.icloud-container-environment</key>
-				<string>Development</string>
+				<string>Production</string>
 				<key>com.apple.developer.icloud-container-identifiers</key>
 				<array>
 					<string>iCloud.com.loves.factoring.release</string>
@@ -51,7 +51,7 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>a6766266-8963-4afa-a5ac-0717a328b39b</string>
+				<string>ad5fe22d-6c69-45d5-b87b-4eba3d265491</string>
 				<key>name</key>
 				<string>Factoring Distribution Profile</string>
 			</dict>
@@ -60,7 +60,7 @@
 				<key>id</key>
 				<string>3WP62T952G</string>
 				<key>name</key>
-				<string>Love's Travel Stops &amp; Country Stores, Inc.</string>
+				<string>Love's Travel Stops &amp; Country Stores, Inc. (Enterprise)</string>
 			</dict>
 		</dict>
 	</array>
