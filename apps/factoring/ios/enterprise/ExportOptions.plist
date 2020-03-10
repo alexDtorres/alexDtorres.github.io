@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<true/>
+	<key>destination</key>
+	<string>export</string>
+	<key>iCloudContainerEnvironment</key>
+	<string>Development</string>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://alexdtorres.github.io/apps/factoring/ios/enterprise/factoring.ipa</string>
+		<key>displayImageURL</key>
+		<string>https://alexdtorres.github.io/apps/factoring/ios/enterprise/image.57x57.png</string>
+		<key>fullSizeImageURL</key>
+		<string>https://alexdtorres.github.io/apps/factoring/ios/enterprise/image.512x512.png</string>
+	</dict>
+	<key>method</key>
+	<string>enterprise</string>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.loves.factoring.release</key>
+		<string>Factoring Distribution Profile</string>
+	</dict>
+	<key>signingCertificate</key>
+	<string>48BA644EC9CC47963D0AFFE9B789986BE714A0AE</string>
+	<key>signingStyle</key>
+	<string>manual</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>3WP62T952G</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>
