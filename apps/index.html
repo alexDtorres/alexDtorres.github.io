@@ -1,21 +1,23 @@
 <html>
 <body>
 	<script>
-		function triggerDownload(e) {
-			var itmsURL = e.target.href;
+		function triggerDownload(ele) {
+			var itmsURL = ele.attributes.href.value;
 			console.log(itmsURL);
 			window.location = itmsURL;
 		}
 	</script>
 	<div>
-		<h1>Factoring</h1>
+		<h1>
+      Factoring
+    </h1>
 		<hr/>
 		<p>
 			itms-services://?action=download-manifest&url=https://alexdtorres.github.io/apps/factoring/manifest.plist
 		</p>
 	</div>
 	<button
-		onclick="triggerDownload"
+		onclick="triggerDownload(this)"
 		href=”itms-services://?action=download-manifest&url=https://alexdtorres.github.io/apps/factoring/manifest.plist"
 	>
 		Install Factoring (Enterprise) for iOS
