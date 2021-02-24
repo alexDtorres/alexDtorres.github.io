@@ -9,9 +9,16 @@ Realistically, you're probably going to go with something like Michelin or
 Firestone because that's kind of their thing, and tires aren't really your 
 thing (because electric cars are your thing). 
 
-Great! As long as we all agree on that, we can proceed to the main content.
+As long as we all agree on that...
 
 How to include native dependencies in your Mendix app:
-1. use react-native community libs (npm modules)
-2. use native deps and connect to react-native with Native Modules
+1. Use react-native community libs and open source libs (npm modules)
+2. Use native libs ("Cocoa Pods" for iOS/"Java packages" for Android) 
+3. Create your own native libs in combination with 
+react-native Native Modules in order to expose an interface to a client app's javascript runtime. 
+(i.e. call native code using javascript source) 
+From there, the javascript runtime will call a special kind of npm module meant to implement the 
+called function in native code. 
+
+What is native code you say? Well that's a separate discussion for a separate Markdown file (:
 
